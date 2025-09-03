@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Получаем секретные данные из переменных окружения
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('8356159765:AAFOrWeqpaIMuxb_lL2OYXxh4ULFlCH1VP4')
 DB_CONFIG = {
     'host': os.getenv('DB_HOST', '127.0.0.1'),
     'user': os.getenv('DB_USER', 'root'),
@@ -25,7 +25,7 @@ SPHINX_HOST = os.getenv("SPHINX_HOST", "127.0.0.1")
 SPHINX_PORT = int(os.getenv("SPHINX_PORT", 9306))
 
 # Считываем идентификатор администратора
-ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))
+ADMIN_ID = int(os.getenv('ADMIN_ID', '7290128282'))
 
 # Получаем пользователей из файла
 ALLOWED_USERS = load_allowed_users()
